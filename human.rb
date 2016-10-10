@@ -11,4 +11,8 @@ class Human
     false
   end
 
+  def humans_can_drink_all_the_coffee
+    true
+  end
+
 end
