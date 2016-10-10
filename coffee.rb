@@ -1,7 +1,10 @@
 class Coffee
 
 
-  # def test_humans_can_drink_all_the_coffee
-  # end
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
 
 end

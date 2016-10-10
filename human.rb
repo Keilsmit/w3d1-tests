@@ -11,7 +11,7 @@ class Human
     false
   end
 
-  def humans_can_drink_all_the_coffee
+  def needs_coffee?
     true
   end
 
