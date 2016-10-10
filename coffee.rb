@@ -2,22 +2,28 @@ class Coffee
 
 
   attr_accessor :name,
-                :full_amount_of_drink
+                :amount,
+                :sip
 
 
 
-  def initialize(name, full_amount_of_drink)
+  def initialize(name)
     @name = name
-    @full_amount_of_drink = 1.0
+    @amount = 1.0
   end
 
 
   def full?
-    self.full_amount_of_drink == 1
+    self.amount == 1
   end
 
   def empty?
-    true
+    self.amount == 0
   end
+
+  def sip
+    self.amount -= 0.31
+  end
+
 
 end

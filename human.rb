@@ -25,6 +25,7 @@ class Human
 
   def drink!
     self.alertness += 0.31
+    self.cup.sip
   end
 
 
