@@ -1,4 +1,5 @@
 class Human
+
   attr_accessor :name,
                 :alertness,
                 :cup,
@@ -23,11 +24,9 @@ class Human
   end
 
   def drink!
-    false
+    self.alertness += 0.31
   end
 
-  def my_alertness(new_variable)
-    self.alertness += new_variable
-  end
+
 
 end
