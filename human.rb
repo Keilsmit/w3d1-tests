@@ -17,7 +17,11 @@ class Human
   end
 
   def buy(my_beverage)
-    cup = my_beverage
+    self.cup = my_beverage
+  end
+
+  def drink
+    true
   end
 
 end
