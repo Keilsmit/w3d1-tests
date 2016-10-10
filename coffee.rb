@@ -7,4 +7,8 @@ class Coffee
     @name = name
   end
 
+  def full?
+    true
+  end
+
 end
