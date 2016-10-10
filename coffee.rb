@@ -18,7 +18,7 @@ class Coffee
   end
 
   def empty?
-    self.amount == 0
+    self.amount <= 0.1
   end
 
   def sip
