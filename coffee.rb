@@ -11,4 +11,7 @@ class Coffee
     true
   end
 
+  def empty?
+  end
+
 end

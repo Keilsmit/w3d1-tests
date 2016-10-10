@@ -1,7 +1,9 @@
 class Human
   attr_accessor :name,
                 :alertness,
-                :cup
+                :cup,
+                :new_variable
+
 
   def initialize(name, alertness=0)
     self.name = name
@@ -20,8 +22,12 @@ class Human
     self.cup = my_beverage
   end
 
-  def drink
-    true
+  def drink!
+    false
+  end
+
+  def my_alertness(new_variable)
+    self.alertness += new_variable
   end
 
 end
