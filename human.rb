@@ -7,5 +7,8 @@ class Human
     self.alertness = alertness
   end
 
+  def has_coffee?
+    false
+  end
 
 end
