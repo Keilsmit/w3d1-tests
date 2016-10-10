@@ -1,6 +1,7 @@
 class Human
   attr_accessor :name,
-                :alertness
+                :alertness,
+                :cup
 
   def initialize(name, alertness=0)
     self.name = name
@@ -13,6 +14,10 @@ class Human
 
   def needs_coffee?
     true
+  end
+
+  def buy(my_beverage)
+    cup = my_beverage
   end
 
 end
