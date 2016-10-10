@@ -24,10 +24,11 @@ class Human
   end
 
   def drink!
-    self.alertness += 0.31
+    if cup.class == Expresso
+      self.alertness += 0.4
+    else
+      self.alertness += 0.31
+    end
     self.cup.sip
   end
-
-
-
 end
